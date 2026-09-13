@@ -1,6 +1,7 @@
 import re
 from pathlib import Path
 
+
 def strip_path(path: str) -> str:
     """Stripping the path in to the bare path
     Args:

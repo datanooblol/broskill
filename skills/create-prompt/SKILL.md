@@ -1,6 +1,11 @@
 ---
 name: create-prompt
 description: Use when the user wants help writing or improving a prompt (for an LLM, agent, or skill) — asks clarifying questions about goal, audience, and constraints, then drafts the prompt and checks it against a quality checklist.
+tags: [create, prompt]
+keywords: [create prompt, build prompt]
+version: v0.1.0
+default: true
+status: experiment
 ---
 
 # Create Prompt
@@ -8,6 +13,7 @@ description: Use when the user wants help writing or improving a prompt (for an 
 ## Step 1 — Clarify with the user
 
 Ask (skip anything already known):
+
 - What is this prompt for — what task, run against what model/agent, one-off or reusable?
 - Who/what is the audience (a model, a person, a downstream system)?
 - Required inputs, expected output format, and constraints (length, tone, structure)?
@@ -16,6 +22,7 @@ Ask (skip anything already known):
 ## Step 2 — Draft
 
 Write the prompt with:
+
 - A clear task statement up front
 - Only the context/constraints actually needed
 - An explicit output format, if one is expected

@@ -1,13 +1,20 @@
 [project]
 name = "broskill"
 version = "0.1.0"
-description = "Add your description here"
+description = "Lightweight, quick-loading skill loader for agentic projects — discovers skills (SKILL.md + references/scripts/assets), loads their instructions, and turns their scripts into callable tools."
 readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "datanooblol" },
+]
 requires-python = ">=3.12"
 dependencies = [
     "pyyaml>=6.0.3",
-    "rapidfuzz>=3.14.6",
 ]
+
+[project.urls]
+Repository = "https://github.com/datanooblol/broskill"
+Changelog = "https://github.com/datanooblol/broskill/blob/main/VERSIONS.md"
 
 [dependency-groups]
 dev = [
