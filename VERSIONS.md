@@ -2,6 +2,14 @@
 
 Changelog for broskill. Newest first.
 
+## v0.1.1
+
+Patch — packaging metadata, no code changes.
+
+- Real `description` in `pyproject.toml` (was the uv-generated placeholder).
+- `authors`, `license = "MIT"`, and `[project.urls]` (`Repository`, `Changelog`) added.
+- `broskill.__version__` added alongside the package's top-level exports.
+
 ## v0.1.0
 
 First real drop. This is where broskill stopped being a notebook full of scratch code and became an actual lib.
